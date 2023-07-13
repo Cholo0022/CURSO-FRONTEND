@@ -1,0 +1,29 @@
+.header{
+    background: url(../img/portada.jpg) no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+    padding-top: 32px;
+}
+
+.header .main__menu {
+    text-align: center;
+}
+
+.header .menu__item{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 16px 5px 16px 5px;
+    border-radius: 5px;
+    margin-bottom: 32px;
+    cursor: pointer;
+}
+
+.header .menu__item:hover{
+    background-color: #48A3A6;
+}
+
+.header .menu__item a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
