@@ -4,31 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/disertante.css">
+    <link rel="stylesheet" href="css/form.css">
     <title>AluraConf</title>
 </head>
 <body>
     <header class="header">
-        <nav class="main__menu">
-            <ul>
-                <li class="menu__item"><a href="#">Sobre</a></li>
-                <li class="menu__item"><a href="#">Disertante</a></li>
-            </ul>
-        </nav>
-        <div>
-            <section class="titles">
-                <h1 class="title">ALURACONF</h1>
-                <h2 class="subtitle">30SEPTIEMBRE|CDMX</h2>    
-            </section>
-            <section class="registrer">
-                <a class="button" href="#">REGISTRARSE</a>
-            </section>
+        <div class="container">
+            <nav class="main__menu">
+                <ul>
+                    <li class="menu__item"><a href="#panel_about">Sobre</a></li>
+                    <li class="menu__item"><a href="#panel_speakers">Disertante</a></li>
+                </ul>
+            </nav>
+            <div>
+                <section class="titles">
+                    <h1 class="title">ALURACONF</h1>
+                    <h2 class="subtitle">30SEPTIEMBRE|CDMX</h2>    
+                </section>
+                <section class="registrer">
+                    <a class="button" href="#panel_form">REGISTRARSE</a>
+                </section>
+            </div>
         </div>
     </header>
 
-    <section class="panel__about">
+    <section id="panel_about" class="panel__about">
         <div class="container">
             <h2 class="title">Mucho contenido del mundo de Desarrollo Web</h2>
             <h3 class="subtitle">30 de septiembre en la ciudad de México</h3>
@@ -44,63 +48,77 @@
             </div>
         </div>
     </section>
-    <section class="panel__speakers">
-        <div class="speakers_about">
-            <h2 class="title">DISERTANTES</h2>
-            <h3 class="subtitle">Aprenda con disertantes y exponentes que son referencia en la comunidad</h3>
+    <section id="panel_speakers" class="panel__speakers">
+        <div class="container">
+            <div class="speakers_about">
+                <h2 class="title">DISERTANTES</h2>
+                <h3 class="subtitle">Aprenda con disertantes y exponentes que son referencia en la comunidad</h3>
+            </div>
+            <ul class="speakers">
+                <li class="speaker"> 
+                    <figure class="speaker__protrait">
+                    <img src="img/disertantes/placeholder.jpeg" alt="Imagen de Disertante">
+                    <figcaption class="speaker__name">Andrés Bozzani</figcaption>
+                    <p class="spaker__bio">Instructor en Alura Latam</p>
+                    </figure>
+                    <p class="speaker__speach">La ventaja de pensar como programador. La ventaja de pensar como programador. La ventaja de pensar como programador. La ventaja de pensar como programador</p>
+                </li>
+                <li class="speaker"> 
+                    <figure class="speaker__protrait">
+                    <img src="img/disertantes/placeholder.jpeg" alt="Imagen de Disertante">
+                    <figcaption class="speaker__name">Andrés Bozzani</figcaption>
+                    <p class="spaker__bio">Instructor en Alura Latam</p>
+                    </figure>
+                    <p class="speaker__speach">La ventaja de pensar como programador</p>
+                </li>
+                <li class="speaker"> 
+                    <figure class="speaker__protrait">
+                    <img src="img/disertantes/placeholder.jpeg" alt="Imagen de Disertante">
+                    <figcaption class="speaker__name">Andrés Bozzani</figcaption>
+                    <p class="spaker__bio">Instructor en Alura Latam</p>
+                    </figure>
+                    <p class="speaker__speach">La ventaja de pensar como programador</p>
+                </li>
+                <li class="speaker"> 
+                    <figure class="speaker__protrait">
+                    <img src="img/disertantes/placeholder.jpeg" alt="Imagen de Disertante">
+                    <figcaption class="speaker__name">Andrés Bozzani</figcaption>
+                    <p class="spaker__bio">Instructor en Alura Latam</p>
+                    </figure>
+                    <p class="speaker__speach">La ventaja de pensar como programador</p>
+                </li>
+                <li class="speaker"> 
+                    <figure class="speaker__protrait">
+                    <img src="img/disertantes/placeholder.jpeg" alt="Imagen de Disertante">
+                    <figcaption class="speaker__name">Andrés Bozzani</figcaption>
+                    <p class="spaker__bio">Instructor en Alura Latam</p>
+                    </figure>
+                    <p class="speaker__speach">La ventaja de pensar como programador</p>
+                </li>
+                <li class="speaker"> 
+                    <figure class="speaker__protrait">
+                    <img src="img/disertantes/placeholder.jpeg" alt="Imagen de Disertante">
+                    <figcaption class="speaker__name">Andrés Bozzani</figcaption>
+                    <p class="spaker__bio">Instructor en Alura Latam</p>
+                    </figure>
+                    <p class="speaker__speach">La ventaja de pensar como programador</p>
+                </li>
+            </ul>
         </div>
-        <ul class="speakers">
-            <li class="speaker"> 
-                <figure class="speaker__protrait">
-                <img src="img/disertantes/placeholder.jpeg" alt="Imagen de Disertante">
-                <figcaption class="speaker__name">Andrés Bozzani</figcaption>
-                <p class="spaker__bio">Instructor en Alura Latam</p>
-                </figure>
-                <p class="speaker__speach">La ventaja de pensar como programador</p>
-            </li>
-            <li class="speaker"> 
-                <figure class="speaker__protrait">
-                <img src="img/disertantes/placeholder.jpeg" alt="Imagen de Disertante">
-                <figcaption class="speaker__name">Andrés Bozzani</figcaption>
-                <p class="spaker__bio">Instructor en Alura Latam</p>
-                </figure>
-                <p class="speaker__speach">La ventaja de pensar como programador</p>
-            </li>
-            <li class="speaker"> 
-                <figure class="speaker__protrait">
-                <img src="img/disertantes/placeholder.jpeg" alt="Imagen de Disertante">
-                <figcaption class="speaker__name">Andrés Bozzani</figcaption>
-                <p class="spaker__bio">Instructor en Alura Latam</p>
-                </figure>
-                <p class="speaker__speach">La ventaja de pensar como programador</p>
-            </li>
-            <li class="speaker"> 
-                <figure class="speaker__protrait">
-                <img src="img/disertantes/placeholder.jpeg" alt="Imagen de Disertante">
-                <figcaption class="speaker__name">Andrés Bozzani</figcaption>
-                <p class="spaker__bio">Instructor en Alura Latam</p>
-                </figure>
-                <p class="speaker__speach">La ventaja de pensar como programador</p>
-            </li>
-            <li class="speaker"> 
-                <figure class="speaker__protrait">
-                <img src="img/disertantes/placeholder.jpeg" alt="Imagen de Disertante">
-                <figcaption class="speaker__name">Andrés Bozzani</figcaption>
-                <p class="spaker__bio">Instructor en Alura Latam</p>
-                </figure>
-                <p class="speaker__speach">La ventaja de pensar como programador</p>
-            </li>
-            <li class="speaker"> 
-                <figure class="speaker__protrait">
-                <img src="img/disertantes/placeholder.jpeg" alt="Imagen de Disertante">
-                <figcaption class="speaker__name">Andrés Bozzani</figcaption>
-                <p class="spaker__bio">Instructor en Alura Latam</p>
-                </figure>
-                <p class="speaker__speach">La ventaja de pensar como programador</p>
-            </li>
-        </ul>
     </section>
 
-   
+    <section id="panel_form" class="panel__form">
+        <div class="container">
+            <h2 class="title">Ingrese sus datos</h2>
+            <form action="#" class="form">
+                <label for="name">Nombre</label>
+                <input type="text" name="name" id="name" >
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+                <input type="submit" value="Realizar Inscripción" class="button">
+            </form>
+        </div>
+    </section>
+    <script src="js/index.js"></script>
 </body>
 </html>

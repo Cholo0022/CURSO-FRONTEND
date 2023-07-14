@@ -19,16 +19,30 @@
     margin-bottom: 16px;
 }
 
+.panel__speakers .speakers{
+    text-align: center;
+}
+
 .panel__speakers .speakers .speaker{
-    width: 250px;
+    max-width: 250px;
     padding: 16px;
     background-color: white;
     text-align: center;
     margin: 10px auto;
     display: inline-block;
     border-radius: 10px;
+    vertical-align: top;
 }
 
 .panel__speakers .speakers .speaker img{
     border-radius: 100%;
+}
+
+.panel__speakers .speakers .speaker .speaker__name{
+    margin-top: 10px;
+}
+
+.panel__speakers .speakers .speaker .spaker__bio{
+    font-weight: bold;
+    margin: 10px 0;
 }
