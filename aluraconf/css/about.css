@@ -1,0 +1,29 @@
+.panel__about{
+    padding: 20px;
+    text-align: center;
+}
+
+.panel__about .title{
+    font-size: 30px;
+    margin-bottom: 16px;
+}
+
+.panel__about .subtitle{
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+.panel__about .description {
+    line-height: 2;
+}
+
+.description p{
+    margin-top: 5px;
+}
+
+.panel__about .container{
+    width: 86%;
+    margin: 0 auto;
+    padding: 16px;
+    border-bottom: 3px solid orangered;
+}
