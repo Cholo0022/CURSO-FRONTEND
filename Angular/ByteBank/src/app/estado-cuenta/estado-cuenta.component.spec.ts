@@ -11,7 +11,9 @@ describe('EstadoCuentaComponent', () => {
       declarations: [ EstadoCuentaComponent ]
     })
     .compileComponents();
+  });
 
+  beforeEach(() => {
     fixture = TestBed.createComponent(EstadoCuentaComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

@@ -1,15 +1,14 @@
 import { Component } from '@angular/core';
+import { TransferenciasService } from './services/transferencias.service';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  transferencias: any[] = [];
-
-  transferir($event: any){
-    console.log("Mensaje desde app.component")
-    this.transferencias.push($event);
+  constructor(private service: TransferenciasService) {}
+  transferir($event: any) {
+    this.service.agregar($event);
   }
 }
